@@ -1,14 +1,18 @@
-# app.py
 import streamlit as st
 import pickle
 import requests
 import math
 from typing import Tuple
+import os
+from dotenv import load_dotenv
 
+
+load_dotenv()
 st.set_page_config(page_title="Movie Recommender", layout="wide", page_icon="🎬")
 
+
 # ---------- CONFIG (change if necessary) ----------
-TMDB_API_KEY = "abc7fe24bd8cfe37b1c9ebcbd90cb8e5"  # <-- replace with your key if needed
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 MOVIES_PKL = "movies.pkl"
 SIMILARITY_PKL = "similarity.pkl"
 FALLBACK_POSTER = "https://via.placeholder.com/400x600?text=No+Image"
