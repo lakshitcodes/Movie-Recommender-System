@@ -1,6 +1,6 @@
 <!-- Banner Image -->
 <p align="center">
-   <img src="images/image.png" alt="Movie Recommender Banner" width="60%" />
+   <img src="images/image.png" alt="Movie Recommender Banner" />
 </p>
 
 <p align="center">
@@ -60,8 +60,8 @@ The **Movie Recommender System** is a web application that helps users find movi
 ## 🖼️ Visuals
 
 <p align="center">
-   <img src="images/image.png" alt="App UI Screenshot" width="45%" />
-   <img src="images/image-1.png" alt="Recommendation Output" width="45%" />
+   <img src="images/image.png" alt="App UI Screenshot"/>
+   <img src="images/image-1.png" alt="Recommendation Output"/>
 </p>
 
 ---
